@@ -1,5 +1,6 @@
 fragLimit: 25
 timeLimit: 15m
+cheats: 1
 bot:
   minPlayers: 3
 game:
@@ -16,6 +17,7 @@ server:
   password: "changeme"
 commands:
   - addbot sarge 2
+  - sv_cheats: 1
 maps:
 - name: q3dm7
   type: FreeForAll
